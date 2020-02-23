@@ -8,7 +8,7 @@ myImage.onclick = function() {
 
     // Checks if 'myImage' is equal to image one, if it is then it is changed to image two, if not it is changed to image one.
     if(mySrc === 'images/image-1.jpg') {
-        myImage.setAttribute('src', 'images/image-2.jpg');
+        myImage.setAttribute('src', 'images/image-2.JPG');
     } else {
         myImage.setAttribute('src', 'images/image-1.jpg');
     }
