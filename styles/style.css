@@ -1,0 +1,50 @@
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #6B15B1;
+} /* Changes font of Web Page, sets purple background color of whole page */
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #3715B1;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+} /* Sets constant width, sets margin, sets purple body background color, sets padding size, sets border */
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+
+    margin: 0;
+    color: #6B15B1;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+} /* Changes font size and centers font to middle for header 1, stes margin, sets unhovered color, sets padding, creates a dropshadow */
+
+p, li {
+      font-size: 16px;    
+      line-height: 2;
+      letter-spacing: 1px;
+    } /* Changes font size, line height, and letter spacing for paragraph and list items */
+
+a {
+    font-size: 20px;
+    color: #BC0918;
+} /* sets size and color for links */
+
+img {
+    display: block;
+    margin : 0 auto;
+} /* Creates the way an image, or img, will be displayed. */
+
+
+a:hover {
+        color: pink;
+    } /* Changes link color to pink when hovered over*/
+
+h1:hover, h3:hover {
+        color: pink;
+    } /* Changes biggest headers/titles(h1) to pink when hovered over*/
+
